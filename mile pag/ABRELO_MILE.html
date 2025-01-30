@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Mi Amor ❤️</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Te amo mucho, Mile ❤️</h1>
+        <p>Eres lo mejor que me ha pasado en la vida.</p>
+        
+        <!-- Foto de ustedes -->
+        <img src="tu-foto.jpg" alt="Nosotros" class="foto">
+
+        <button onclick="mostrarMensaje()">Haz clic aquí</button>
+        <p id="mensaje" style="display: none;">Eres la persona más especial del mundo 💖</p>
+    </div>
+
+    <!-- Íconos de Snoopy -->
+    <div class="snoopy-container">
+        <img src="snoopy1.png" class="snoopy snoopy1" alt="Snoopy">
+        <img src="snoopy2.png" class="snoopy snoopy2" alt="Snoopy">
+        <img src="snoopy3.png" class="snoopy snoopy3" alt="Snoopy">
+    </div>
+
+    <script>
+        function mostrarMensaje() {
+            document.getElementById("mensaje").style.display = "block";
+        }
+    </script>
+</body>
+</html>
